@@ -211,8 +211,8 @@ function doWhile(numero) {
   let i = 0
   let n = 5
   do {
-    numero += n;
-    i += 1 ;
+    numero += n; //o puede entenderse como numero = numero + n
+    i += 1 ; // o puede entenderse como i = i + 1
   } while ( i < 8);
   return numero;
 }
